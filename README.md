@@ -7,10 +7,11 @@ url = f"https://api.github.com/repos/{GITHUB_REPO}/releases"
 py 에서
 
 상단
+```
 APP_VERSION = "3.3.2"
 GITHUB_REPO = "eriwpa/version_check"
-
-
+```
+```
 # =============== 버전 체크 ===============
 
 def check_update():
@@ -59,7 +60,8 @@ def check_update():
         msg.exec_()
         
         return False
-
+```
+```
 # =============== 메인 실행 ===============
 
 def main():
@@ -76,3 +78,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+```
