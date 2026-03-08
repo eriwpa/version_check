@@ -126,7 +126,7 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print("\n\n프로그램이 사용자에 의해 중단되었습니다.")
         sys.exit(0)
-        ```
+```
 
 ```
 fn check_update() -> Result<bool> {
@@ -174,6 +174,7 @@ fn check_update() -> Result<bool> {
     Ok(false)
 }
 ```
+
 ```
 fn main() -> Result<()> {
     check_expiry()?;
@@ -182,7 +183,7 @@ fn main() -> Result<()> {
     }                           // 추가
     
     ctrlc::set_handler(|| {
-    ```
-    ```
+```
+```
     println!("　　{}", APP_VERSION);
-    ```
+```
